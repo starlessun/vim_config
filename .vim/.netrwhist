@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/cobot/cobot_python/ui_translator/scripts'
+let g:netrw_dirhist_2='/home/yichao/Documents/CMU_learn/15410/15410p2/410user/libstdlib'
+let g:netrw_dirhist_3='/home/yichao/Documents/CMU_proj/darpa_humanoid/bullet-read-only/Demos/VehicleDemo'
+let g:netrw_dirhist_4='/home/yichao/cobot_stable/pytools'
