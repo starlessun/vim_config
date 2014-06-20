@@ -10,6 +10,10 @@ let g:miniBufExplModeSelTarget = 1
 
 set colorcolumn=76
 set shiftwidth=4
+set expandtab
+
+call pathogen#infect()
+helptags .
 
 "auto tab complete
 function! My_TabComplete()
