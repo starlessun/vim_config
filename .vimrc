@@ -13,9 +13,7 @@ set shiftwidth=4
 set expandtab
 
 call pathogen#infect()
-
-" might need this in first run to setup taglist
-"helptags  .
+"helptags .
 
 "auto tab complete
 function! My_TabComplete()
@@ -37,8 +35,7 @@ let Tlist_GainFocus_On_ToggleOpen = 1
 noremap dl :NERDTreeToggle<CR>
 
 " open tag in new tab
-nnoremap <C-]> :tabnew %<CR>g<C-]>
-vnoremap <C-]> <ESC>:tabnew %<CR>gvg<C-]>
+nnoremap <C-]> <C-w><C-]><C-w>T
 
 " folding
 " set foldmethod=syntax
