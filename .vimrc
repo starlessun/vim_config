@@ -13,7 +13,9 @@ set shiftwidth=4
 set expandtab
 
 call pathogen#infect()
-helptags -R .
+
+" might need this in first run to setup taglist
+"helptags  .
 
 "auto tab complete
 function! My_TabComplete()
