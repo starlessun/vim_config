@@ -13,7 +13,7 @@ set shiftwidth=4
 set expandtab
 
 call pathogen#infect()
-helptags .
+helptags -R .
 
 "auto tab complete
 function! My_TabComplete()
