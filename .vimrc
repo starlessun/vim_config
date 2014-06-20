@@ -34,5 +34,9 @@ let Tlist_GainFocus_On_ToggleOpen = 1
 " map dl to toggle NERDlist 
 noremap dl :NERDTreeToggle<CR>
 
+" open tag in new tab
+nnoremap <C-]> :tabnew %<CR>g<C-]>
+vnoremap <C-]> <ESC>:tabnew %<CR>gvg<C-]>
+
 " folding
 " set foldmethod=syntax
