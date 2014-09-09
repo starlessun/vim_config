@@ -37,5 +37,6 @@ noremap dl :NERDTreeToggle<CR>
 " open tag in new tab
 nnoremap <C-]> <C-w><C-]><C-w>T
 
+set background=dark
 " folding
 " set foldmethod=syntax
