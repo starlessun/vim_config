@@ -14,6 +14,7 @@ set expandtab
 
 call pathogen#infect()
 "helptags .
+Helptags
 
 "auto tab complete
 function! My_TabComplete()
