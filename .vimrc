@@ -41,3 +41,8 @@ nnoremap <C-]> <C-w><C-]><C-w>T
 set background=dark
 " folding
 " set foldmethod=syntax
+"
+
+set encoding=utf-8
+set termencoding=utf-8
+set fileencodings=utf-8,gb18030,cp936,big5,euc-jp,latin1
