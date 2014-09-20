@@ -8,7 +8,10 @@ let g:miniBufExplMapWindowNavArrows = 1
 let g:miniBufExplMapCTabSwitchBufs = 1
 let g:miniBufExplModeSelTarget = 1
 
-set colorcolumn=76
+if exists('colorcolumn') || (v:version >= 730)
+    set colorcolumn=76
+endif
+
 set shiftwidth=4
 set expandtab
 
