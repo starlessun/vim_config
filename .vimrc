@@ -13,6 +13,7 @@ if exists('colorcolumn') || (v:version >= 730)
 endif
 
 set shiftwidth=4
+set tabstop=4
 set expandtab
 
 call pathogen#infect()
