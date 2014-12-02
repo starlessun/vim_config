@@ -50,3 +50,8 @@ set background=dark
 set encoding=utf-8
 set termencoding=utf-8
 set fileencodings=utf-8,gb18030,cp936,big5,euc-jp,latin1
+
+" pydiction settings
+" need to modify if importing to a new environment
+let g:pydiction_location = '/home/yichao/.vim/bundle/pydiction/complete-dict'
+
