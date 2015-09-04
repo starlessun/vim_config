@@ -28,30 +28,32 @@ function! My_TabComplete()
         return "\<C-X>\<C-U>"
     else
         return "\<tab>"
-endfunction
-autocmd FileType java inoremap <tab> <C-R>=My_TabComplete()<CR>
+    endfunction
+    autocmd FileType java inoremap <tab> <C-R>=My_TabComplete()<CR>
 
-" map tl to toggle tag list
-noremap tl :TlistToggle<CR>
-" set the tag list toggle automatically gain focus
-let Tlist_GainFocus_On_ToggleOpen = 1
+    " map tl to toggle tag list
+    noremap tl :TlistToggle<CR>
+    " set the tag list toggle automatically gain focus
+    let Tlist_GainFocus_On_ToggleOpen = 1
 
-" map dl to toggle NERDlist 
-noremap dl :NERDTreeToggle<CR>
+    " map dl to toggle NERDlist 
+    noremap dl :NERDTreeToggle<CR>
 
-" open tag in new tab
-nnoremap <C-]> <C-w><C-]><C-w>T
+    " open tag in new tab
+    nnoremap <C-]> <C-w><C-]><C-w>T
 
-set background=dark
-" folding
-" set foldmethod=syntax
-"
+    set background=dark
+    " folding
+    " set foldmethod=syntax
+    "
 
-set encoding=utf-8
-set termencoding=utf-8
-set fileencodings=utf-8,gb18030,cp936,big5,euc-jp,latin1
+    set encoding=utf-8
+    set termencoding=utf-8
+    set fileencodings=utf-8,gb18030,cp936,big5,euc-jp,latin1
 
-" pydiction settings
-" need to modify if importing to a new environment
-let g:pydiction_location = '/home/yichao/.vim/bundle/pydiction/complete-dict'
+    " pydiction settings
+    " need to modify if importing to a new environment
+    let g:pydiction_location = '/home/yichao/.vim/bundle/pydiction/complete-dict'
 
+    " enable auto format
+    au BufWrite * :Autoformat
